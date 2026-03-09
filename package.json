@@ -1,0 +1,29 @@
+{
+  "name": "projectapi",
+  "version": "1.0.0",
+  "description": "Task Manager API",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "axios": "^1.13.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "pg": "^8.11.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "keywords": [
+    "api",
+    "tasks",
+    "node"
+  ],
+  "author": "",
+  "license": "ISC"
+}
